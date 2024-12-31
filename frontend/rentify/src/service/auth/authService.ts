@@ -2,7 +2,7 @@ import axios, { isAxiosError } from "axios";
 import { getCookie } from "../cookies/cookiesService";
 
 export const backend = axios.create({
-  baseURL: "https://s18-23-n-java-react-ju3q.onrender.com/api/v1",
+  baseURL: "https://rentify-backend-ang6.onrender.com/api/v1",
   withCredentials: true,
 });
 
